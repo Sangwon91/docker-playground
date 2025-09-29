@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  my_ubuntu:
+    build: .
+    volumes:
+      - ./my-project:/app
+    command: tail -f /dev/null
+    stdin_open: true
+    tty: true
