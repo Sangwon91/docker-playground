@@ -2,7 +2,6 @@
     "dockerComposeFile": "../../docker-compose.yml",
     "service": "my_ubuntu",
     "workspaceFolder": "/app",
-    "shutdownAction": "stopCompose",
     "customizations": {
         "vscode": {
             "extensions": [
