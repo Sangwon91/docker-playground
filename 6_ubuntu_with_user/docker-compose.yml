@@ -8,6 +8,6 @@ services:
         GID: ${GID}
     volumes:
       - ./my-project:/app
-    command: tail -f /dev/null
+    command: sleep infinity
     stdin_open: true
     tty: true

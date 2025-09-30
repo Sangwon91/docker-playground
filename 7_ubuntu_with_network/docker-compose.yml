@@ -10,6 +10,6 @@ services:
       - ./my-project:/app
     ports:
       - 8555:8501
-    command: tail -f /dev/null
+    command: sleep infinity
     stdin_open: true
     tty: true

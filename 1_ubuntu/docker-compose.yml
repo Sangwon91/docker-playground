@@ -2,6 +2,6 @@ version: '3.8'
 services:
   my_ubuntu:
     image: ubuntu:latest
-    command: tail -f /dev/null
+    command: sleep infinity
     stdin_open: true
     tty: true
