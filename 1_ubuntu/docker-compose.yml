@@ -1,5 +1,4 @@
 version: '3.8'
-name: "my_project"
 services:
   my_ubuntu:
     image: ubuntu:22.04
