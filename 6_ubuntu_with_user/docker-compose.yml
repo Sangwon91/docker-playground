@@ -7,7 +7,7 @@ services:
         UID: ${UID}
         GID: ${GID}
     volumes:
-      - ./my-project:/app
+      - ./src:/app
     command: sleep infinity
     stdin_open: true
     tty: true

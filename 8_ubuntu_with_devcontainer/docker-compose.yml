@@ -7,9 +7,9 @@ services:
         UID: ${UID}
         GID: ${GID}
     volumes:
-      - ./my-project:/app
+      - ./src:/app
     ports:
       - 8555:8501
-    command: tail -f /dev/null
+    command: sleep infinity
     stdin_open: true
     tty: true

@@ -3,7 +3,7 @@ services:
   my_ubuntu:
     build: .
     volumes:
-      - ./my-project:/app
+      - ./src:/app
     command: sleep infinity
     stdin_open: true
     tty: true
