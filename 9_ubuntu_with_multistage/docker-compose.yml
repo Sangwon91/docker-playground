@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  my_ubuntu:
+    build:
+      context: .
+      args:
+        UID: ${UID}
+        GID: ${GID}
+    volumes:
+      - ./src:/app
+    ports:
+      - 8555:8501
+    command: sleep infinity
+    stdin_open: true
+    tty: true
