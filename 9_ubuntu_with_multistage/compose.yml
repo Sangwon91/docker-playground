@@ -1,11 +1,6 @@
-version: '3.8'
 services:
   my_ubuntu:
-    build:
-      context: .
-      args:
-        UID: ${UID}
-        GID: ${GID}
+    build: .
     volumes:
       - ./src:/app
     ports:
